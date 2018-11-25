@@ -16,7 +16,7 @@ var elNote = document.getElementById('note');
 // Replace the content of this element.
 elNote.textContent = message;
 
-/* 
+/*
 NOTE: textContent does not work in IE8 or earlier
 You can use innerHTML, but note the security issues on p228-231
 elName.innerHTML = username;
